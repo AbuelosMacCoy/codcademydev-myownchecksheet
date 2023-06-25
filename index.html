@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cheat Sheet</title>
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+</head>
+<body>
+    <header>
+      <h1>My Cheat Sheet for <a href="#html">HTML</a> and <a href="#css">CSS</a></h1>
+      </header>
+    <main>
+    <!-- Section for my HTML Cheat sheet -->
+      <section id="html" >
+        
+        <h2>HTML Cheat Sheet</h2>
+        
+        <!-- HTML Cheat sheet -->
+        <table>
+            <!-- Table head for HTML Cheat Sheet -->
+            <thead>
+                <tr>
+                    <th scope="col">Concept</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Reference</th>
+                    <th scope="col">Notes</th>
+                </tr>
+            </thead>
+            <!-- Table body for HTML Cheat Sheet -->
+            <tbody>
+                <!-- 1st Concept: Tables -->
+                <!-- rowspan="2" attribute is set to the first <tr> tag for all <td> tags, with the exepctio of the cell corresponding to "Reference". This way, 
+                    we are splitting the cell corresponding to the "Reference column" in two rows -->
+                <tr>
+                    <th scope="row" rowspan="2">Tag <kbd>&lt;table&gt;</kbd></th>
+                    <td rowspan="2">Used to make tables</td>
+                    <td><a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-tables/cheatsheet">
+                        CodeCademy</a></td>                  
+                    <td rowspan="2" class="Notes"><kbd>tr</kbd> tag makes the row, and for setting the amount of columns per this row, you have to add <kbd>td</kbd> per column.</td>
+                </tr>
+                <!--We are adding this <tr> so this will create a second row; since all others will span two rows, the "Reference column cell will be split in 
+                    two rows for the first concept" -->
+                <tr>
+                    <td><a href="./content/tables/tables.html">My Table Cheat Sheet</a></td>
+                </tr>
+                <!-- 2nd Concept: Link -->
+                <tr>
+                    <th scope="row">Tag <kbd>&lt;link&gt;</kbd></th>
+                    <td>Linking to CSS File</td>
+                    <td><a href="https://www.codecademy.com/learn/paths/fscj-22-web-development-foundations/tracks/fscj-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules-0507dd23-134e-4011-af2c-a06b06ad53f2/cheatsheet">
+                        CodeCademy</a></td>
+                    <td class="Notes">In order to link the HTML file to the CSS file, if you want to use a relative path, a "." needs to preced the "/" for the directory
+                </tr>
+                <!-- 3rd Concept: rowspan attribute -->
+                <tr>
+                    <th scope="row">Attribute <kbd>rowspan</kbd></td>
+                    <td>This will merge rows</td>
+                    <td><a href="https://www.codecademy.com/resources/docs/html/tables/rowspan">CodeCademy</a>
+                    <td><kbd>rowspan</kbd> will need to set how many rows will you merge: <kbd>rowspan="n"</kbd> where "n" is the number of rows to merge. Check reference for constraintr this attribute</td>
+                </tr>
+            </tbody>
+          </table>
+      </section>
+      <section id="css">
+        <h2>CSS Cheat Sheet</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Concept</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Reference</th>
+                    <th scope="col">Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th scope="row">Color</th>
+                <td>Color changes the content of inside the box.</td>
+                <td><a href="https://www.codecademy.com/learn/learn-css-colors/modules/css-colors/cheatsheet"></a>CodeCademy</td>
+                <td>Changing Background Color is a different key. </td>
+            </tbody>
+          </table>
+      </section>    
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

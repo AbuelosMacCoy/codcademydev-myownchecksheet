@@ -1,0 +1,50 @@
+
+
+body{
+    background-color: rgba(228, 229, 235, 0);
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+
+.Notes {
+font-weight: normal;
+}
+
+table {
+    display: table;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    margin: auto;
+    width: 650px;
+}
+
+thead {
+    background-color: darkcyan;
+    color: whitesmoke;
+    box-sizing: border-box;
+ 
+}
+
+tbody { 
+    background-color: cornsilk;
+}
+
+table tbody td {
+    border-top: 2px, double, blue;
+
+}
+
+kbd{
+    background-color: aliceblue;
+}
