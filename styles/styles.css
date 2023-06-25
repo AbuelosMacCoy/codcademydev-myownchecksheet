@@ -22,11 +22,13 @@ font-weight: normal;
 }
 
 table {
-    display: table;
-    border: 1px solid blue;
     box-sizing: border-box;
     margin: auto;
     width: 650px;
+}
+
+table, th,td {
+    border: 2px, solid, black;
 }
 
 thead {
@@ -40,10 +42,6 @@ tbody {
     background-color: cornsilk;
 }
 
-table tbody td {
-    border-top: 2px, double, blue;
-
-}
 
 kbd{
     background-color: aliceblue;
