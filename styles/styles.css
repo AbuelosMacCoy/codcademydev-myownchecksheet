@@ -21,11 +21,11 @@ h2 {
 table {
     box-sizing: border-box;
     margin: auto;
-    width: 650px;
+    width: 80%;
 }
 
-table, th,td {
-    border: 2px, solid, black;
+table, th, td {
+    border: 10px, dotted, black;
 }
 
 thead {
